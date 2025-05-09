@@ -1,0 +1,22 @@
+[project]
+name = "tictacjr"
+version = "0.1.0"
+description = "A Python library for creating Scratch Junior–style projects using code."
+authors = [
+    { name = "pycb6a", email = "pycb6a@gmail.com" }
+]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/pycb6a/tictacjr"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame==2.6.1"
+]
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+pyright = "^1.1.396"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
